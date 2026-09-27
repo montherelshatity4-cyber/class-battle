@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101426" />
+  <title>Monther’s Class Battle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <button class="brand" data-action="home" aria-label="Go to home"><span class="brand-mark">M</span><span>MONTHER’S<br><b>CLASS BATTLE</b></span></button>
+    <div class="top-actions"><span class="live-dot"></span><span class="live-label">CLASSROOM LIVE</span><button class="icon-btn" data-action="sound" aria-label="Toggle sound">🔊</button></div>
+  </header>
+
+  <main id="app"></main>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
